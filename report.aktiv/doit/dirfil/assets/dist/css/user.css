@@ -1,0 +1,51 @@
+.rotate{
+    transform:rotate(-90deg);
+} 
+
+.dt-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+    color: azure;
+    margin-bottom: 0.5%;
+} 
+
+.buttons-print{
+background-color: #1890c7 !important;
+}
+
+.buttons-copy{
+background-color: #c9562c !important;
+}
+
+.buttons-csv{
+background-color: #3f6b6b !important;
+}
+
+.buttons-excel{
+background-color: #3D9970 !important;
+}
+
+.dt-button:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+.dt-button:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+[v-cloak] {
+  display: none;
+}

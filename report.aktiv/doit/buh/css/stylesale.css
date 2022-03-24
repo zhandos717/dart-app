@@ -1,0 +1,638 @@
+
+    /* Style the navbar */
+    #navbar {
+        overflow: hidden;
+        background-color: #191C21;
+      }
+
+      /* Navbar links */
+      #navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+      }
+
+      /* Page content */
+      .content {
+        padding: 16px;
+      }
+
+      /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+      .sticky + .content {
+        padding-top: 60px;
+      }
+          .windows8 {
+          position: relative;
+          width: 78px;
+          height:78px;
+          margin:auto;
+      }
+
+      .windows8 .wBall {
+          position: absolute;
+          width: 74px;
+          height: 74px;
+          opacity: 0;
+          transform: rotate(225deg);
+              -o-transform: rotate(225deg);
+              -ms-transform: rotate(225deg);
+              -webkit-transform: rotate(225deg);
+              -moz-transform: rotate(225deg);
+          animation: orbit 6.96s infinite;
+              -o-animation: orbit 6.96s infinite;
+              -ms-animation: orbit 6.96s infinite;
+              -webkit-animation: orbit 6.96s infinite;
+              -moz-animation: orbit 6.96s infinite;
+      }
+
+      .windows8 .wBall .wInnerBall{
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          background: rgb(0,0,0);
+          left:0px;
+          top:0px;
+          border-radius: 10px;
+      }
+
+      .windows8 #wBall_1 {
+          animation-delay: 1.52s;
+              -o-animation-delay: 1.52s;
+              -ms-animation-delay: 1.52s;
+              -webkit-animation-delay: 1.52s;
+              -moz-animation-delay: 1.52s;
+      }
+
+      .windows8 #wBall_2 {
+          animation-delay: 0.3s;
+              -o-animation-delay: 0.3s;
+              -ms-animation-delay: 0.3s;
+              -webkit-animation-delay: 0.3s;
+              -moz-animation-delay: 0.3s;
+      }
+
+      .windows8 #wBall_3 {
+          animation-delay: 0.61s;
+              -o-animation-delay: 0.61s;
+              -ms-animation-delay: 0.61s;
+              -webkit-animation-delay: 0.61s;
+              -moz-animation-delay: 0.61s;
+      }
+
+      .windows8 #wBall_4 {
+          animation-delay: 0.91s;
+              -o-animation-delay: 0.91s;
+              -ms-animation-delay: 0.91s;
+              -webkit-animation-delay: 0.91s;
+              -moz-animation-delay: 0.91s;
+      }
+
+      .windows8 #wBall_5 {
+          animation-delay: 1.22s;
+              -o-animation-delay: 1.22s;
+              -ms-animation-delay: 1.22s;
+              -webkit-animation-delay: 1.22s;
+              -moz-animation-delay: 1.22s;
+      }
+
+
+
+      @keyframes orbit {
+          0% {
+              opacity: 1;
+              z-index:99;
+              transform: rotate(180deg);
+              animation-timing-function: ease-out;
+          }
+
+          7% {
+              opacity: 1;
+              transform: rotate(300deg);
+              animation-timing-function: linear;
+              origin:0%;
+          }
+
+          30% {
+              opacity: 1;
+              transform:rotate(410deg);
+              animation-timing-function: ease-in-out;
+              origin:7%;
+          }
+
+          39% {
+              opacity: 1;
+              transform: rotate(645deg);
+              animation-timing-function: linear;
+              origin:30%;
+          }
+
+          70% {
+              opacity: 1;
+              transform: rotate(770deg);
+              animation-timing-function: ease-out;
+              origin:39%;
+          }
+
+          75% {
+              opacity: 1;
+              transform: rotate(900deg);
+              animation-timing-function: ease-out;
+              origin:70%;
+          }
+
+          76% {
+          opacity: 0;
+              transform:rotate(900deg);
+          }
+
+          100% {
+          opacity: 0;
+              transform: rotate(900deg);
+          }
+      }
+
+      @-o-keyframes orbit {
+          0% {
+              opacity: 1;
+              z-index:99;
+              -o-transform: rotate(180deg);
+              -o-animation-timing-function: ease-out;
+          }
+
+          7% {
+              opacity: 1;
+              -o-transform: rotate(300deg);
+              -o-animation-timing-function: linear;
+              -o-origin:0%;
+          }
+
+          30% {
+              opacity: 1;
+              -o-transform:rotate(410deg);
+              -o-animation-timing-function: ease-in-out;
+              -o-origin:7%;
+          }
+
+          39% {
+              opacity: 1;
+              -o-transform: rotate(645deg);
+              -o-animation-timing-function: linear;
+              -o-origin:30%;
+          }
+
+          70% {
+              opacity: 1;
+              -o-transform: rotate(770deg);
+              -o-animation-timing-function: ease-out;
+              -o-origin:39%;
+          }
+
+          75% {
+              opacity: 1;
+              -o-transform: rotate(900deg);
+              -o-animation-timing-function: ease-out;
+              -o-origin:70%;
+          }
+
+          76% {
+          opacity: 0;
+              -o-transform:rotate(900deg);
+          }
+
+          100% {
+          opacity: 0;
+              -o-transform: rotate(900deg);
+          }
+      }
+
+      @-ms-keyframes orbit {
+          0% {
+              opacity: 1;
+              z-index:99;
+              -ms-transform: rotate(180deg);
+              -ms-animation-timing-function: ease-out;
+          }
+
+          7% {
+              opacity: 1;
+              -ms-transform: rotate(300deg);
+              -ms-animation-timing-function: linear;
+              -ms-origin:0%;
+          }
+
+          30% {
+              opacity: 1;
+              -ms-transform:rotate(410deg);
+              -ms-animation-timing-function: ease-in-out;
+              -ms-origin:7%;
+          }
+
+          39% {
+              opacity: 1;
+              -ms-transform: rotate(645deg);
+              -ms-animation-timing-function: linear;
+              -ms-origin:30%;
+          }
+
+          70% {
+              opacity: 1;
+              -ms-transform: rotate(770deg);
+              -ms-animation-timing-function: ease-out;
+              -ms-origin:39%;
+          }
+
+          75% {
+              opacity: 1;
+              -ms-transform: rotate(900deg);
+              -ms-animation-timing-function: ease-out;
+              -ms-origin:70%;
+          }
+
+          76% {
+          opacity: 0;
+              -ms-transform:rotate(900deg);
+          }
+
+          100% {
+          opacity: 0;
+              -ms-transform: rotate(900deg);
+          }
+      }
+
+      @-webkit-keyframes orbit {
+          0% {
+              opacity: 1;
+              z-index:99;
+              -webkit-transform: rotate(180deg);
+              -webkit-animation-timing-function: ease-out;
+          }
+
+          7% {
+              opacity: 1;
+              -webkit-transform: rotate(300deg);
+              -webkit-animation-timing-function: linear;
+              -webkit-origin:0%;
+          }
+
+          30% {
+              opacity: 1;
+              -webkit-transform:rotate(410deg);
+              -webkit-animation-timing-function: ease-in-out;
+              -webkit-origin:7%;
+          }
+
+          39% {
+              opacity: 1;
+              -webkit-transform: rotate(645deg);
+              -webkit-animation-timing-function: linear;
+              -webkit-origin:30%;
+          }
+
+          70% {
+              opacity: 1;
+              -webkit-transform: rotate(770deg);
+              -webkit-animation-timing-function: ease-out;
+              -webkit-origin:39%;
+          }
+
+          75% {
+              opacity: 1;
+              -webkit-transform: rotate(900deg);
+              -webkit-animation-timing-function: ease-out;
+              -webkit-origin:70%;
+          }
+
+          76% {
+          opacity: 0;
+              -webkit-transform:rotate(900deg);
+          }
+
+          100% {
+          opacity: 0;
+              -webkit-transform: rotate(900deg);
+          }
+      }
+
+      @-moz-keyframes orbit {
+          0% {
+              opacity: 1;
+              z-index:99;
+              -moz-transform: rotate(180deg);
+              -moz-animation-timing-function: ease-out;
+          }
+
+          7% {
+              opacity: 1;
+              -moz-transform: rotate(300deg);
+              -moz-animation-timing-function: linear;
+              -moz-origin:0%;
+          }
+
+          30% {
+              opacity: 1;
+              -moz-transform:rotate(410deg);
+              -moz-animation-timing-function: ease-in-out;
+              -moz-origin:7%;
+          }
+
+          39% {
+              opacity: 1;
+              -moz-transform: rotate(645deg);
+              -moz-animation-timing-function: linear;
+              -moz-origin:30%;
+          }
+
+          70% {
+              opacity: 1;
+              -moz-transform: rotate(770deg);
+              -moz-animation-timing-function: ease-out;
+              -moz-origin:39%;
+          }
+
+          75% {
+              opacity: 1;
+              -moz-transform: rotate(900deg);
+              -moz-animation-timing-function: ease-out;
+              -moz-origin:70%;
+          }
+
+          76% {
+          opacity: 0;
+              -moz-transform:rotate(900deg);
+          }
+
+          100% {
+          opacity: 0;
+              -moz-transform: rotate(900deg);
+          }
+      }
+          .conten-wrapper{
+              width: 1000px;
+              /* ширина */
+              height: 1000px;
+              /* высота */
+              padding: 0px 20px 30px 30px;
+              /*внутренние отступы - верх, право, низ, лево */
+              margin: 20px auto;
+              /* выравнивание по центру */
+              font-family: "Times New Roman";
+              /* нужный шрифт */
+              ;
+              font-size: 14px;
+              text-align: justify;
+          }
+
+       s
+          @page {
+              margin: 1cm;
+          }
+
+          /*Бирка на товар*/
+          th {
+              text-align: left;
+          }
+
+          .pledger {
+              padding-left: 2%;
+          }
+
+          .mp {
+              width: 5%;
+          }
+          /*=======================================================================================*/
+      /* свойства модального окна по умолчанию */
+      .modal{
+          position: fixed; /* фиксированное положение */
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: rgba(0,0,0,0.5); /* цвет фона */
+          z-index: 1050;
+          opacity: 0; /* по умолчанию модальное окно прозрачно */
+          -webkit-transition: opacity 200ms ease-in;
+          -moz-transition: opacity 200ms ease-in;
+          transition: opacity 200ms ease-in; /* анимация перехода */
+          pointer-events: none; /* элемент невидим для событий мыши */
+          margin: 0;
+          padding: 0;
+      }
+      /* при отображении модального окно */
+      .modal:target {
+          opacity: 1; /* делаем окно видимым */
+            pointer-events: auto; /* элемент видим для событий мыши */
+          overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+      }
+      /* ширина модального окна и его отступы от экрана */
+      .modal-dialog {
+          position: relative;
+          width: auto;
+          margin: 10px;
+      }
+      @media (min-width: 576px) {
+        .modal-dialog {
+            max-width: 500px;
+            margin: 30px auto; /* для отображения модального окна по центру */
+        }
+      }
+      /* свойства для блока, содержащего контент модального окна */
+      .modal-content {
+          position: relative;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          background-color: #fff;
+          -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+          /* border: 1px solid rgba(0,0,0,.2); */
+          border-radius: .3rem;
+          outline: 0;
+      }
+      @media (min-width: 768px) {
+        .modal-content {
+            -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+            box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        }
+      }
+      /* свойства для заголовка модального окна */
+      .modal-header {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          padding: 15px;
+          border-bottom: 1px solid #eceeef;
+      }
+      .modal-title {
+          margin-top: 0;
+          margin-bottom: 0;
+          line-height: 1.5;
+          font-size: 1.25rem;
+          font-weight: 500;
+          text-align: center;
+      }
+      /* свойства для кнопки "Закрыть" */
+      .close {
+          float: right;
+          font-family: sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 1;
+          color: #000;
+          text-shadow: 0 1px 0 #fff;
+          opacity: .5;
+          text-decoration: none;
+      }
+      /* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+      .close:focus, .close:hover {
+          color: #000;
+          text-decoration: none;
+          cursor: pointer;
+          opacity: .75;
+      }
+      /* свойства для блока, содержащего основное содержимое окна */
+      .modal-body {
+        position: relative;
+          -webkit-box-flex: 1;
+          -webkit-flex: 1 1 auto;
+          -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+          padding: 15px;
+          overflow: auto;
+      }
+      .add_palitra {
+        display: block;
+        width: 100px;
+        height: 150px;
+        position: fixed;
+        right: 10%;
+        bottom: 5%;
+        z-index: 150;
+        }
+        .add_palitra img{
+          width: 100px;
+        }
+
+        .palitra {
+          display: block;
+          width: 100px;
+          height: 150px;
+          position: fixed;
+          left: 10%;
+          bottom: 2%;
+          z-index: 150;
+          }
+        .submit:active, .submit:hover, .submit:focus {
+          outline: 0;
+          outline-offset: 0;
+          box-shadow: none;
+          outline: none;
+          border: none;
+        }
+      .submit{
+        background: #191C21;
+        color: #fff;
+        outline: none;
+        border: none;
+        margin-top: 15px;
+      }
+      .button13 {
+        display: inline-block;
+        width: 100%;
+        font-size: 80%;
+        color: rgba(255,255,255,.9);
+        text-shadow: #2e7ebd 0 1px 2px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 1.1;
+        white-space: pre-line;
+        padding: .7em 0;
+        border: 1px solid;
+        border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+        border-radius: 6px;
+        outline: none;
+        background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+        box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+      }
+      .button13:first-line{
+        font-size: 170%;
+        font-weight: 700;
+      }
+      .button13:hover {
+        color: rgb(255,255,255);
+        background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+      }
+      .button13:active {
+        color: rgb(255,255,255);
+        border-color: #2970a9;
+        background-image: linear-gradient(#5796c8, #6aa2ce);
+        box-shadow: none;
+      }
+      @media print {
+          .modal-body {
+              font-size: 14px;
+          width:300px;
+          height:800px
+          border: 1px solid black;
+          }
+        .noprint{
+         display:none;
+         }
+         .print{
+          display:block;
+          }
+      }
+              .conten-wrapper{
+              width: 1000px;
+              /* ширина */
+              height: 1400px;
+              /* высота */
+              padding: 0px 20px 30px 30px;
+              /*внутренние отступы - верх, право, низ, лево */
+              margin: 20px auto;
+              /* выравнивание по центру */
+              font-family: "Times New Roman";
+              /* нужный шрифт */
+              ;
+              font-size: 140%;
+              text-align: justify;
+          }
+          .prlzh{
+            margin-left: 700px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .zagolovok{
+            text-align: center;
+        }
+        .tovar{
+
+            border:2px solid #000;
+        }
+        .clien_podpis{
+            margin-left: 60%;
+        }
