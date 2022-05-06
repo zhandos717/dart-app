@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d2c9eca-30e1-4ce0-9061-e4714349cf0f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/campjunior.ru/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/campjunior/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/campjunior/.idea/campjunior.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/campjunior/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/campjunior/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/campjunior/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/campjunior/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alemi" beforeDir="false" afterPath="$PROJECT_DIR$/alemi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot.cn" beforeDir="false" afterPath="$PROJECT_DIR$/bot.cn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camp/.vscode/sftp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camp/admin/create_news.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camp/admin/edit_news.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camp/admin/functions/create_news.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camp/css/news.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camp/news_more.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/campjunior/.vscode/sftp.json" beforeDir="false" afterPath="$PROJECT_DIR$/campjunior/.vscode/sftp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marlindev" beforeDir="false" afterPath="$PROJECT_DIR$/marlindev" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="273liS3IyFbW8IgX6pXA4T2pY0o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d2c9eca-30e1-4ce0-9061-e4714349cf0f" name="Changes" comment="" />
+      <created>1648556780442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648556780442</updated>
+      <workItem from="1648556783986" duration="6000" />
+    </task>
+    <servers />
+  </component>
+</project>
